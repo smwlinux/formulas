@@ -1,0 +1,6 @@
+the following formula is used in a conditional formating setting on Google sheets.  This was used to check if a 
+formula was used in cell A25 and if the value of the formula is "50".  If both conditions are valid, then a true statement
+is issued, then the conditional formatting will expose the contents of whichever cell the conditional formatting is set for.
+
+
+=if(and(isformula(A25),A25=50), "true", "false")
